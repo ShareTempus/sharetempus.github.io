@@ -3,8 +3,18 @@ import { h } from 'preact';
 const Header = () => (
   <header className="header">
     <div className="links">
-      <a className="link" href="#">API docs</a>
-      <a className="link" href="#">Sign in &rarr;</a>
+      <a
+        className="link"
+        onClick={() => window.open('https://docs.sharetempus.com')}
+      >
+        API docs
+      </a>
+      <a
+        className="link"
+        onClick={() => window.open('https://dashboard.sharetempus.com')}
+      >
+        Sign in &rarr;
+      </a>
     </div>
   </header>
 );

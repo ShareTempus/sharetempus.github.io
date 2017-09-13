@@ -1,7 +1,7 @@
 {
-  "name": "react-airbnb-boilerplate",
+  "name": "sharetempus.github.io",
   "version": "0.0.1",
-  "description": "React Boilerplate following Airbnb's JavaScript (ES6) Style Guide.",
+  "description": "ShareTempus official website",
   "scripts": {
     "precommit": "npm test && npm run build",
     "start": "./node_modules/.bin/webpack-dev-server --inline --content-base build/ -d --host 0.0.0.0",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LucasBassetti/react-airbnb-boilerplate"
+    "url": "https://github.com/ShareTempus/sharetempus.github.io"
   },
   "keywords": [
     "react",
@@ -37,9 +37,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LucasBassetti/react-airbnb-boilerplate/issues"
+    "url": "https://github.com/ShareTempus/sharetempus.github.io/issues"
   },
-  "homepage": "https://github.com/LucasBassetti/react-airbnb-boilerplate#readme",
+  "homepage": "https://github.com/ShareTempus/sharetempus.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "babel-core": "^6.26.0",
