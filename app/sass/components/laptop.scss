@@ -1,0 +1,95 @@
+.laptop {
+  position: relative;
+  width: 584px;
+  height: 405px;
+  left: 50%;
+  margin-left: -292px;
+
+  * {
+    position: absolute;
+  }
+
+  .shadow {
+    left: 17px;
+    right: 17px;
+    top: 40px;
+    height: 490px;
+    opacity: .3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    background: #7692b3;
+    -webkit-filter: blur(30px);
+    filter: blur(30px);
+  }
+
+  .lid {
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(45deg,#e5ebf2,#f3f8fb);
+    background: linear-gradient(45deg,#e5ebf2,#f3f8fb);
+    border-radius: 20px;
+    box-shadow: inset 1px -4px 6px rgba(145,161,181,.3);
+  }
+
+  .camera {
+    --size: 4px;
+    width: var(--size);
+    height: var(--size);
+    top: 10px;
+    left: 50%;
+    margin-left: calc(var(--size) / -2);
+    border-radius: 50%;
+    background: #dae0e8;
+  }
+
+  .screen {
+    top: 24px;
+    bottom: 35px;
+    left: 17px;
+    right: 17px;
+    border-radius: 4px;
+    box-shadow: -1px 1px 6px rgba(171,183,204,.2);
+    background: #fff;
+    background-image: url('/assets/dashboard.png');
+    background-size: cover;
+  }
+
+  .chassis {
+    width: 100%;
+    height: 142px;
+    top: calc(100% - 11px);
+    border-radius: 8px 8px 14px 14px;
+    -webkit-transform: perspective(880px) rotateX(40deg);
+    transform: perspective(880px) rotateX(40deg);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    background: -webkit-linear-gradient(rgba(145,161,181,.2),rgba(145,161,181,0)),-webkit-linear-gradient(45deg,#e5ebf2,#f3f8fb);
+    background: linear-gradient(rgba(145,161,181,.2),rgba(145,161,181,0)),linear-gradient(45deg,#e5ebf2,#f3f8fb);
+    box-shadow: inset 0 -2px 3px rgba(145,161,181,.5), inset -1px -6px 4px rgba(253,255,255,.9);
+
+    * {
+      opacity: .3;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+      filter: alpha(opacity=30);
+      background: -webkit-linear-gradient(45deg,#b2bdcc,#c1ccd8);
+      background: linear-gradient(45deg,#b2bdcc,#c1ccd8);
+      box-shadow: 1px 1px 1px hsla(0,0%,100%,.75);
+    }
+
+    .keyboard {
+      left: 28px;
+      right: 28px;
+      top: 8px;
+      height: 66px;
+      border-radius: 2px 2px 4px 4px;
+    }
+
+    .trackpad {
+      left: 165px;
+      right: 165px;
+      top: 76px;
+      height: 52px;
+      border-radius: 4px 4px 6px 6px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.footer {
+  background: $background-secondary-color;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  padding: 16px;
+
+  > .content {
+    max-width: 1200px;
+    width: 90%;
+
+    hr {
+      border: 0;
+      border-top: 1px solid darken($background-secondary-color, 10%);
+    }
+
+    .copyright {
+      opacity: .5;
+    }
+  }
+}

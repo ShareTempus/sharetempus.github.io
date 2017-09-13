@@ -1,0 +1,47 @@
+$animation-duration: 10s;
+$animation-effect: cubic-bezier(.49,.86,.59,.95);
+$scale-color: #173753;
+$line-color: $primary-color;
+
+@keyframes chartlines {
+  0% { transform: scaleY(1); }
+  77% { transform: scaleY(1); }
+  80% { transform: scaleY(.6); }
+  97% { transform: scaleY(.6); }
+  100% { transform: scaleY(1); }
+}
+
+// .chart-scale {
+//   stroke: $scale-color;
+// }
+
+.chart-icon {
+  padding: 12px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: linear-gradient(150deg, #6bf7ad, #71ffb3);
+  overflow: visible;
+}
+
+.chart-line {
+  stroke: $line-color;
+  transform-origin: bottom;
+}
+
+.chart-icon {
+  .chart-line {
+    &:first-child {
+      animation: $animation-duration $animation-effect infinite chartlines;
+    }
+    &:nth-child(2) {
+      animation: $animation-duration $animation-effect infinite reverse chartlines;
+    }
+    &:nth-child(3) {
+      animation: $animation-duration $animation-effect infinite reverse chartlines;
+    }
+    &:nth-child(4) {
+      animation: $animation-duration $animation-effect infinite chartlines;
+    }
+  }
+}

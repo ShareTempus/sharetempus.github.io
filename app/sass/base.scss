@@ -1,0 +1,29 @@
+html,
+body {
+  color: #4a4a4a;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #4a4a4a;
+  cursor: pointer;
+  letter-spacing: .5px;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+p {
+  letter-spacing: .5px;
+  line-height: 1.5;
+}

@@ -1,0 +1,51 @@
+@keyframes showDot {
+  50% { background: $primary-color; }
+}
+
+.dotmap {
+  min-width: 890px;
+  width: 890px;
+
+  .row {
+    &:after {
+      content: "";
+      display:  table;
+      clear: both;
+    }
+  }
+
+  //global dot styles
+  .dot {
+    float: left;
+    display: inline-block;
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+    background: #ccc;
+    margin: 2px;
+  }
+
+  .water {
+    background: transparent;
+  }
+
+  .north-america, .south-america, .europe, .africa, .asia, .australia {
+    background: #eee;
+  }
+
+  .animation {
+    animation: showDot 5s ease;
+  }
+}
+
+@media screen and (max-width: $screen-tablet) {
+  .dotmap {
+    min-width: 620px;
+    width: 620px;
+
+    .dot {
+      width: 5px;
+      height: 5px;
+    }
+  }
+}
