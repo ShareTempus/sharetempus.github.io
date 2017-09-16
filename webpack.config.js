@@ -29,6 +29,16 @@ module.exports = {
       },
       {
         context: path.resolve(__dirname, 'app/'),
+        from: 'manifest.json',
+        to: path.resolve(__dirname, ''),
+      },
+      {
+        context: path.resolve(__dirname, 'app/'),
+        from: 'sw.js',
+        to: path.resolve(__dirname, ''),
+      },
+      {
+        context: path.resolve(__dirname, 'app/'),
         from: 'assets',
         to: path.resolve(__dirname, 'assets'),
       },

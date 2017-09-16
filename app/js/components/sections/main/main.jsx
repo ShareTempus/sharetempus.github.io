@@ -1,10 +1,29 @@
 import { h, Component } from 'preact';
-import Logo from '../../common/logo';
+import { Logo } from '../../common';
 import World from './world';
 
 class Main extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      Video: undefined,
+      opened: false,
+    };
+
+    this.toggleVideoContainer = this.toggleVideoContainer.bind(this);
+  }
+
   componentDidMount() {
     this.runWorldAnimation();
+
+    System.import('./video').then((module) => {
+      this.setState({ Video: module.default });
+    });
+  }
+
+  toggleVideoContainer(opened) {
+    this.setState({ opened });
   }
 
   runWorldAnimation() {
@@ -39,6 +58,8 @@ class Main extends Component {
   }
 
   render() {
+    const { Video, opened } = this.state;
+
     return (
       <section className="main">
         <World />
@@ -47,6 +68,18 @@ class Main extends Component {
           <p className="description">
             Bringing protection to the shared economy
           </p>
+          <div>
+            <a
+              className="button button-primary"
+              onClick={() => this.toggleVideoContainer(true)}
+            >
+              Watch the video
+            </a>
+          </div>
+          <Video
+            opened={opened}
+            toggleVideoContainer={this.toggleVideoContainer}
+          />
         </div>
       </section>
     );

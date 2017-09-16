@@ -11,25 +11,12 @@ $line-color: $primary-color;
   100% { transform: scaleY(1); }
 }
 
-// .chart-scale {
-//   stroke: $scale-color;
-// }
-
 .chart-icon {
-  padding: 12px;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: linear-gradient(150deg, #6bf7ad, #71ffb3);
-  overflow: visible;
-}
+  .chart-line {
+    stroke: $line-color;
+    transform-origin: bottom;
+  }
 
-.chart-line {
-  stroke: $line-color;
-  transform-origin: bottom;
-}
-
-.chart-icon {
   .chart-line {
     &:first-child {
       animation: $animation-duration $animation-effect infinite chartlines;

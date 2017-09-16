@@ -142,6 +142,17 @@ class API extends Component {
               options={options}
             />
           }
+          {
+            selectedCode === '2' &&
+            <div className="action">
+              <a
+                className="button button-secondary"
+                onClick={() => window.open('https://docs.sharetempus.com')}
+              >
+                Check full API docs
+              </a>
+            </div>
+          }
         </div>
       </section>
     );

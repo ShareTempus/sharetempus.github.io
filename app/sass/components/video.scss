@@ -1,0 +1,32 @@
+.modal-video-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 99;
+
+  &.opened {
+    display: block;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sharetempus-video {
+    width: 60%;
+  }
+
+  @media screen and (max-width: $screen-tablet) {
+    .sharetempus-video {
+      width: 95%;
+    }
+  }
+}

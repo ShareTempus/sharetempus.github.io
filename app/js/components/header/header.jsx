@@ -10,10 +10,10 @@ const Header = () => (
         API docs
       </a>
       <a
-        className="link"
+        className="link button button-primary"
         onClick={() => window.open('https://dashboard.sharetempus.com')}
       >
-        Sign in &rarr;
+        Sign in
       </a>
     </div>
   </header>

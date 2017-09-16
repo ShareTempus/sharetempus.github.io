@@ -1,0 +1,50 @@
+.box-icon {
+  padding: 12px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: linear-gradient(150deg, #6bf7ad, #71ffb3);
+  overflow: visible;
+
+  > .icon {
+    fill: $primary-color;
+  }
+}
+
+.button {
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  display: inline-block;
+  font-size: 15px;
+  padding: 8px 18px;
+  text-transform: uppercase;
+  transition: transform .3s ease;
+
+  &:hover {
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    transform: translateY(0);
+  }
+
+  &.button-primary {
+    background: $primary-color;
+    color: #fff;
+
+    &:hover {
+      background: lighten($primary-color, 5%);
+    }
+  }
+
+  &.button-secondary {
+    background: #fff;
+    color: $primary-color;
+
+    &:hover {
+      color: lighten($primary-color, 5%);
+    }
+  }
+}

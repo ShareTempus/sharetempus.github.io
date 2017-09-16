@@ -1,0 +1,15 @@
+
+{
+  "name": "ShareTempus",
+  "short_name": "ShareTempus",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#047237",
+  "icons": [{
+    "src": "./assets/favicon-192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }]
+}

@@ -4,12 +4,14 @@
   ],
   "globals": {
     "document": true,
+    "navigator": true,
     "window": true
   },
   "rules": {
-    "max-len": ["off"],
-    "jsx-a11y/no-static-element-interactions": ["off"],
-    "react/react-in-jsx-scope": ["off"],
+    "max-len": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/media-has-caption": 0,
+    "react/react-in-jsx-scope": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-unused-vars": ["error", { "varsIgnorePattern": "h" }]
   }

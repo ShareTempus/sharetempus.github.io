@@ -1,6 +1,6 @@
 import { h } from 'preact';
 import Laptop from '../../common/laptop';
-import ChartIcon from '../../common/chart_icon';
+import { ChartIcon } from '../../common';
 
 const Features = () => (
   <section className="features">

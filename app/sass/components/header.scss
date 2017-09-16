@@ -5,7 +5,7 @@
   height: 56px;
   position: absolute;
   width: 100%;
-  z-index: 999;
+  z-index: 99;
 
   .links {
     max-width: 1000px;
@@ -13,9 +13,12 @@
     width: 90%;
 
     .link {
+      display: inline-block;
       font-weight: bold;
       text-decoration: none;
-      margin-left: 48px;
+      margin-left: 36px;
+      font-size: 15px;
+      text-transform: uppercase;
     }
   }
 
