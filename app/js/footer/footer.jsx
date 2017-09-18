@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import { EmailIcon, LinkedinIcon } from '../common';
+import { EmailIcon, LinkedinIcon } from '../components';
 
 const Footer = () => (
   <footer className="footer">

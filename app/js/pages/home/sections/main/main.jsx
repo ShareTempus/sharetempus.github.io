@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { Logo } from '../../common';
+import { Logo } from '../../../../components';
 import World from './world';
 
 class Main extends Component {

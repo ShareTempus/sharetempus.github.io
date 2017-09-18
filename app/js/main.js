@@ -1,5 +1,6 @@
 import { h, render } from 'preact';
-import Site from './components/site';
+import Home from './pages/home/home';
+// import renderRoutes from './routes';
 import '../sass/styles.scss';
 
 // navigator.serviceWorker.register('./sw.js').then((reg) => {
@@ -9,6 +10,6 @@ import '../sass/styles.scss';
 // });
 
 render(
-  <Site />,
+  <Home />,
   document.getElementById('root'),
 );

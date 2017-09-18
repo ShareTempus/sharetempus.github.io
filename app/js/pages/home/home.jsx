@@ -1,9 +1,9 @@
 import { h, Component } from 'preact';
-import Header from './header/header';
+import Header from '../../header/header';
 import Main from './sections/main/main';
 import Details from './sections/details/details';
 
-class Site extends Component {
+class Home extends Component {
   constructor() {
     super();
 
@@ -18,7 +18,7 @@ class Site extends Component {
       System.import('./sections/features/features'),
       System.import('./sections/platforms/platforms'),
       System.import('./sections/getting_start/getting_start'),
-      System.import('./footer/footer'),
+      System.import('../../footer/footer'),
     ]).then((modules) => {
       this.setState({ modules: modules.map(m => m.default) });
     });
@@ -40,4 +40,4 @@ class Site extends Component {
   }
 }
 
-export default Site;
+export default Home;

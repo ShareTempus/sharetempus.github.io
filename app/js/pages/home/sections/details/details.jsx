@@ -3,7 +3,7 @@ import {
   DescriptionIcon,
   SettingsIcon,
   VerifiedUserIcon,
-} from '../../common';
+} from '../../../../components';
 
 const Details = () => (
   <section className="details">
