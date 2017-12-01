@@ -2,6 +2,7 @@ $background-secondary-color: #f3faf7;
 
 $primary-color: #047237;
 $primary-color-lighten: lighten(#047237, 30%);
+$primary-color-lighten-small: lighten($primary-color, 15%);
 
 $screen-phone: 480px;
 $screen-tablet: 768px;

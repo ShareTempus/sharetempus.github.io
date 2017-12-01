@@ -17,6 +17,7 @@ class Home extends Component {
       System.import('./sections/api/api'),
       System.import('./sections/features/features'),
       System.import('./sections/platforms/platforms'),
+      System.import('./sections/team/team'),
       System.import('./sections/getting_start/getting_start'),
       System.import('../../footer/footer'),
     ]).then((modules) => {
