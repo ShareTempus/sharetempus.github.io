@@ -56,7 +56,7 @@ const Team = () => {
     {
       name: 'Alan Ross',
       image: 'assets/team/alan.jpg',
-      position: 'Strategic Advisor',
+      position: 'Cloud Information Security Officer',
       // description: '',
       // email: '',
       social: [
