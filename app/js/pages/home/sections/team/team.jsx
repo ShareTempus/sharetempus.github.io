@@ -44,6 +44,16 @@ const Team = () => {
       ],
     },
     {
+      name: 'Gary Abramson',
+      image: 'assets/team/gary.jpg',
+      position: 'CRO',
+      description: 'ACAS, MAAA, 35+ years of actuarial experience.',
+      // email: '',
+      social: [
+        { type: 'linkedin', link: '' },
+      ],
+    },
+    {
       name: 'Trenton Large',
       image: 'assets/team/trenton.jpg',
       position: 'CTO',
