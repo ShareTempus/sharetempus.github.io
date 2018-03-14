@@ -64,6 +64,16 @@ const Team = () => {
       ],
     },
     {
+      name: 'Ray Bryant',
+      image: 'assets/team/ray.jpg',
+      position: 'Strategic Advisor and Evangelist',
+      description: 'A serial CEO with two successful exits, Ray has made a lifetime study of how to grow an organization. Since building his first transactional website in 1995, he has been responsible the sale of more than $40 million of products and services online.',
+      // email: '',
+      social: [
+        { type: 'linkedin', link: '' },
+      ],
+    },
+    {
       name: 'Alan Ross',
       image: 'assets/team/alan.jpg',
       position: 'Strategic Advisor',
