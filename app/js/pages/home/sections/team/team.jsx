@@ -7,7 +7,7 @@ const Team = () => {
       name: 'Dennis Dias',
       image: 'assets/team/dennis.jpg',
       position: 'CEO',
-      description: 'Retired US Navy Officer. Extensive software developer leadership experience. Sharing Economy connoisseur.',
+      description: 'Extensive technology leadership experience - retired Navy Officer and strong passion for the sharing economy',
       email: 'dennis@sharetempus.com',
       social: [
         { type: 'linkedin', link: '' },
@@ -73,16 +73,16 @@ const Team = () => {
         { type: 'linkedin', link: '' },
       ],
     },
-    {
-      name: 'Alan Ross',
-      image: 'assets/team/alan.jpg',
-      position: 'Strategic Advisor',
-      // description: '',
-      // email: '',
-      social: [
-        { type: 'linkedin', link: '' },
-      ],
-    },
+    // {
+    //   name: 'Alan Ross',
+    //   image: 'assets/team/alan.jpg',
+    //   position: 'Strategic Advisor',
+    //   // description: '',
+    //   // email: '',
+    //   social: [
+    //     { type: 'linkedin', link: '' },
+    //   ],
+    // },
     {
       name: 'Ryan Kieff',
       image: 'assets/team/ryan.jpg',
