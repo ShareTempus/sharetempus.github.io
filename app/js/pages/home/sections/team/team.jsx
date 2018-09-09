@@ -53,16 +53,16 @@ const Team = () => {
         { type: 'linkedin', link: '' },
       ],
     },
-    {
-      name: 'Trenton Large',
-      image: 'assets/team/trenton.jpg',
-      position: 'CTO',
-      description: 'Serial Entrepreneur, VC experience, Product Designer, and Skillful Coder. Extensive experience in API and securities technology.',
-      email: 'trent@sharetempus.com',
-      social: [
-        { type: 'linkedin', link: 'https://www.linkedin.com/in/trentlarge' },
-      ],
-    },
+    // {
+    //   name: 'Trenton Large',
+    //   image: 'assets/team/trenton.jpg',
+    //   position: 'CTO',
+    //   description: 'Serial Entrepreneur, VC experience, Product Designer, and Skillful Coder. Extensive experience in API and securities technology.',
+    //   email: 'trent@sharetempus.com',
+    //   social: [
+    //     { type: 'linkedin', link: 'https://www.linkedin.com/in/trentlarge' },
+    //   ],
+    // },
     {
       name: 'Ray Bryant',
       image: 'assets/team/ray.jpg',
