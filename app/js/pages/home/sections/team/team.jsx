@@ -87,7 +87,7 @@ const Team = () => {
       name: 'Ryan Kieff',
       image: 'assets/team/ryan.jpg',
       position: 'Full Stack Developer',
-      // description: '',
+      description: '20+ years of product development, aoftwarw engineering and technology experience.',
       // email: '',
       social: [
         { type: 'linkedin', link: '' },
