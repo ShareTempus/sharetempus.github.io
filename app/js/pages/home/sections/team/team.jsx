@@ -86,7 +86,7 @@ const Team = () => {
     {
       name: 'Ryan Kieff',
       image: 'assets/team/ryan.jpg',
-      position: 'Full Stack Developer',
+      position: 'CTO & Full Stack Developer',
       description: '20+ years of product development, software engineering and technology experience.',
       // email: '',
       social: [
@@ -114,7 +114,7 @@ const Team = () => {
       <div className="content">
         <h1 className="title">Who we are</h1>
         <p className="description">
-          An experienced team with 35+ year insurance industry.
+          An experienced team with 35+ years in the insurance industry.
         </p>
         <div className="members">
           {memberComponents}
