@@ -61,7 +61,7 @@
     "ignore-styles": "^5.0.1",
     "image-webpack-loader": "^3.4.2",
     "mocha": "^3.5.0",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.13.1",
     "nyc": "^11.2.1",
     "postcss-import": "^10.0.0",
     "postcss-loader": "^2.0.6",
